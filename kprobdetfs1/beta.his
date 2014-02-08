@@ -1,0 +1,15 @@
+ iter    objective    betag1    betag2    betag3   betag4    betag5    betag6   
+   betag7    betag8
+    0  0.7698046E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity       Infinity
+    1  0.9494786E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+    2  0.9641617E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+    3  0.1280825E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    4  0.1287048E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+    5  0.1378519E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+    6  0.1402524E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    7  0.1411729E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    8  0.1444697E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+    9  0.1464962E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+   10  0.1464988E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
+   11  0.1464929E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity
+   12  0.1464908E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
