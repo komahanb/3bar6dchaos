@@ -312,11 +312,16 @@ subroutine EV_F(N, X, NEW_X, F, IDAT, DAT, IERR)
 
 !  call PCestimate(ndimint,dim,xavgin,xstdin,fctin,fctindxin,DATIN,OSin,orderinitial,orderfinal,statin,probtypeIN,fmeanout,fvarout,fmeanprimeout,fvarprimeout,fmeandbleprimeout,fvardbleprimeout)
 
-  call PCestimate(N-3,N,x,sigmax,23,0,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
-
  if (IDAT(2).eq.1) then ! Deterministic with PC
-     fvartmp=0.0d0
-     fvarprimetmp=0.0d0
+
+    call CalcExact(x,N,fmeantmp,fmeanprimetmp,0,DAT(1001:1020))
+    fvartmp=0.0d0
+    fvarprimetmp=0.0d0
+
+ else 
+
+    call PCestimate(N-3,N,x,sigmax,23,0,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
+
   end if
 
 
@@ -389,11 +394,17 @@ subroutine EV_G(N, X, NEW_X, M, G, IDAT, DAT, IERR)
      
      !  call PCestimate(ndimint,dim,xavgin,xstdin,fctin,fctindxin,DATIN,OSin,orderinitial,orderfinal,statin,probtypeIN,fmeanout,fvarout,fmeanprimeout,fvarprimeout,fmeandbleprimeout,fvardbleprimeout)
      
-     call PCestimate(N-3,N,x,sigmax,23,i,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
-
+     
      if (IDAT(2).eq.1) then
+
+        call CalcExact(x,N,fmeantmp,fmeanprimetmp,i,DAT(1001:1020))
         fvartmp=0.0
         fvarprimetmp(:)=0.0
+
+     else
+
+        call PCestimate(N-3,N,x,sigmax,23,i,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
+
      end if
 
 !     if(id_proc.eq.0)   print*,"me,st:",fmeantmp,fvartmp
@@ -507,12 +518,17 @@ subroutine EV_GRAD_F(N, X, NEW_X, GRAD, IDAT, DAT, IERR)
 
 !  call PCestimate(ndimint,dim,xavgin,xstdin,fctin,fctindxin,DATIN,OSin,orderinitial,orderfinal,statin,probtypeIN,fmeanout,fvarout,fmeanprimeout,fvarprimeout,fmeandbleprimeout,fvardbleprimeout)
 
-  call PCestimate(N-3,N,x,sigmax,23,0,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
+  
+     if (IDAT(2).eq.1) then
+        call CalcExact(x,N,fmeantmp,fmeanprimetmp,0,DAT(1001:1020))
+        fvartmp=0.0
+        fvarprimetmp(:)=0.0
 
-  if (IDAT(2).eq.1) then
-     fvartmp=0.0
-     fvarprimetmp(:)=0.0
-  end if
+     else
+
+        call PCestimate(N-3,N,x,sigmax,23,0,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
+
+     end if
   
      !---- OBJECTIVE FUNCTION gradient and x value
 
@@ -722,13 +738,19 @@ subroutine EV_JAC_G(TASK, N, X, NEW_X, M, NZ, ACON, AVAR, A,IDAT, DAT, IERR)
 
 !  call PCestimate(ndimint,dim,xavgin,xstdin,fctin,fctindxin,DATIN,OSin,orderinitial,orderfinal,statin,probtypeIN,fmeanout,fvarout,fmeanprimeout,fvarprimeout,fmeandbleprimeout,fvardbleprimeout)
 
-  call PCestimate(N-3,N,x,sigmax,23,i,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
 
            if (fvartmp.lt.0.0) fvartmp=0.0
 
            if (IDAT(2).eq.1) then
+
+              call CalcExact(x,N,fmeantmp,fmeanprimetmp,i,DAT(1001:1020))
               fvartmp=0.0
               fvarprimetmp(:)=0.0
+
+           else
+              
+              call PCestimate(N-3,N,x,sigmax,23,i,DAT(1001:1020),2,4,4,0,probtype,fmeantmp,fvartmp,fmeanprimetmp,fvarprimetmp,fmeandbleprimetmp,fvardbleprimetmp)
+              
            end if
 
            do j=1,N

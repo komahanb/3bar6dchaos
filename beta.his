@@ -1,19 +1,17 @@
  iter    objective    betag1    betag2    betag3   betag4    betag5    betag6   
    betag7    betag8
-    0  0.7698046E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity       Infinity
-    1  0.1110427E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
-    2  0.1100887E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    3  0.1377664E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    4  0.1434754E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    5  0.1665721E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    6  0.1871419E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    7  0.2193645E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    8  0.2131253E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-    9  0.2122467E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   10  0.2106490E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-   11  0.2104293E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-   12  0.2103907E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-   13  0.2103648E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-   14  0.2103790E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
-   15  0.2103849E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   16  0.2103839E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
+    0  0.7656854E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity       Infinity
+    1  0.1032819E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    2  0.1020261E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    3  0.1168466E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    4  0.1242297E+02       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    5  0.1437989E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    6  0.1531128E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    7  0.1883961E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    8  0.2034477E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity       Infinity
+    9  0.2307522E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+   10  0.2317539E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+   11  0.2319825E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+   12  0.2321240E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+   13  0.2321337E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
+   14  0.2321338E+02      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity
