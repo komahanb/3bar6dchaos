@@ -15,41 +15,43 @@ Total number of inequality constraints...............:        8
         inequality constraints with only upper bounds:        8
 
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-   0  7.6568542e+00 3.06e+00 1.08e+00   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
-   1  1.0328191e+01 1.38e+00 5.92e+00  -0.6 1.96e+00    -  2.66e-01 9.66e-01h  1
-   2  1.0202607e+01 1.11e+00 2.61e+00  -0.5 1.10e+00    -  8.11e-01 2.53e-01h  1
-   3  1.1684663e+01 7.18e-01 5.42e+00  -0.5 8.93e-01    -  6.48e-01 4.90e-01h  1
-   4  1.2422970e+01 6.34e-01 6.05e+00  -1.1 8.67e-01    -  8.64e-01 2.86e-01h  1
-   5  1.4379894e+01 4.01e-01 5.50e+00  -1.3 1.43e+00    -  1.00e+00 5.98e-01h  1
-   6  1.5311279e+01 3.36e-01 1.32e+01  -1.3 9.26e-01    -  9.98e-01 2.38e-01h  1
-   7  1.8839614e+01 1.63e-01 1.99e+01  -1.3 1.86e+00    -  1.00e+00 7.04e-01h  1
-   8  2.0344768e+01 9.92e-02 9.22e+00  -3.5 1.36e+00    -  7.78e-01 4.44e-01h  1
-   9  2.3075216e+01 3.96e-03 1.75e+00  -2.0 9.87e-01    -  1.00e+00 1.00e+00h  1
+   0  7.6568542e+00 3.23e+00 1.09e+00   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.0426462e+01 1.44e+00 6.01e+00  -0.6 2.05e+00    -  2.71e-01 9.85e-01h  1
+   2  1.0331653e+01 1.18e+00 2.56e+00  -0.5 1.14e+00    -  8.02e-01 2.40e-01h  1
+   3  1.1387754e+01 7.83e-01 3.27e+00  -0.8 8.79e-01    -  6.19e-01 4.28e-01h  1
+   4  1.2993881e+01 6.99e-01 4.13e+00  -0.9 1.13e+00    -  9.59e-01 4.85e-01h  1
+   5  1.5028218e+01 4.23e-01 1.45e+01  -1.1 1.59e+00    -  1.00e+00 5.03e-01h  1
+   6  1.6341131e+01 3.35e-01 2.88e+01  -0.8 1.95e+00    -  9.79e-01 2.31e-01h  1
+   7  2.1815590e+01 8.38e-02 3.60e+00  -1.2 2.18e+00    -  1.00e+00 1.00e+00h  1
+   8  2.3661508e+01 9.03e-03 1.11e+01  -0.1 2.89e+00    -  7.36e-01 3.55e-01f  1
+   9  2.3775574e+01 5.79e-03 1.21e+00  -1.0 1.46e-01    -  1.00e+00 1.00e+00h  1
 iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
-  10  2.3175394e+01 9.23e-04 1.57e-01  -3.6 4.79e-02    -  1.00e+00 1.00e+00h  1
-  11  2.3198249e+01 4.62e-04 8.59e-02  -4.9 7.35e-03    -  1.00e+00 1.00e+00h  1
-  12  2.3212397e+01 3.14e-05 8.14e-03  -5.8 5.63e-03    -  1.00e+00 9.97e-01h  1
-  13  2.3213369e+01 4.04e-07 3.69e-03  -7.7 1.36e-03    -  1.00e+00 1.00e+00h  1
-  14  2.3213382e+01 6.93e-09 1.66e-06  -9.7 1.06e-05    -  1.00e+00 1.00e+00h  1
+  10  2.3519357e+01 2.15e-02 1.91e+00  -2.1 4.01e-01    -  9.97e-01 9.79e-01f  1
+  11  2.4104233e+01 9.27e-03 2.42e+00  -2.5 2.32e-01    -  1.00e+00 1.00e+00h  1
+  12  2.4379894e+01 1.41e-03 2.24e+00  -2.6 8.56e-02    -  1.00e+00 1.00e+00h  1
+  13  2.4389902e+01 1.46e-03 7.24e-01  -3.1 1.50e-01    -  1.00e+00 1.00e+00h  1
+  14  2.4431444e+01 2.73e-04 2.13e-02  -4.7 2.86e-02    -  1.00e+00 9.82e-01h  1
+  15  2.4439878e+01 3.97e-05 4.26e-03  -6.2 2.60e-03    -  1.00e+00 1.00e+00h  1
+  16  2.4441123e+01 5.10e-07 4.84e-04  -8.3 5.27e-04    -  1.00e+00 1.00e+00h  1
 
-Number of Iterations....: 14
+Number of Iterations....: 16
 
                                    (scaled)                 (unscaled)
-Objective...............:   2.3213381898416216e+01    2.3213381898416216e+01
-Dual infeasibility......:   1.6611518631748368e-06    1.6611518631748368e-06
-Constraint violation....:   6.9274467706759244e-09    6.9274467706759244e-09
-Complementarity.........:   1.7849357436213626e-10    1.7849357436213626e-10
-Overall NLP error.......:   1.6611518631748368e-06    1.6611518631748368e-06
+Objective...............:   2.4441123402431700e+01    2.4441123402431700e+01
+Dual infeasibility......:   4.8370070035197443e-04    4.8370070035197443e-04
+Constraint violation....:   5.0962052594750617e-07    5.0962052594750617e-07
+Complementarity.........:   7.0194858604092715e-09    7.0194858604092715e-09
+Overall NLP error.......:   4.8370070035197443e-04    4.8370070035197443e-04
 
 
-Number of objective function evaluations             = 15
-Number of objective gradient evaluations             = 15
+Number of objective function evaluations             = 17
+Number of objective gradient evaluations             = 17
 Number of equality constraint evaluations            = 0
-Number of inequality constraint evaluations          = 15
+Number of inequality constraint evaluations          = 17
 Number of equality constraint Jacobian evaluations   = 0
-Number of inequality constraint Jacobian evaluations = 15
+Number of inequality constraint Jacobian evaluations = 17
 Number of Lagrangian Hessian evaluations             = 0
-Total CPU secs in IPOPT (w/o function evaluations)   =      0.012
-Total CPU secs in NLP function evaluations           =      0.001
+Total CPU secs in IPOPT (w/o function evaluations)   =      0.017
+Total CPU secs in NLP function evaluations           =      0.002
 
 EXIT: Stopping optimization at current point as requested by user.

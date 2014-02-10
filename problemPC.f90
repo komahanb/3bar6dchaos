@@ -173,7 +173,7 @@ program problemPC
   !Displacement
   dat(1000+12)=0.005    ! in  max_u_disp=dat(12)
   dat(1000+13)=0.005    ! in  max_v_disp=dat(12)
-  dat(1000+14)=1.25      ! Factor of safety
+  dat(1000+14)=1.3      ! Factor of safety
   dat(1000+20)=77      ! filenum for PC
 
 
