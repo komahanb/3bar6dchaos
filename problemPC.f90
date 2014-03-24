@@ -84,9 +84,6 @@ program problemPC
      X_U(i) = 5.0d0
   end do
 
-!  x(1)=4.0
-!  x(2)=0.0
-!  x(3)=1.75
   ! orientation design variables
 
   ! phi(1)
@@ -104,11 +101,8 @@ program problemPC
   X_L(6) = (90.0+30.0)*pi/180.0
   X_U(6) = (90.0+60.0)*pi/180.0
 
-!!$
-!!$
-!!$  x(4)=0.766835821510991
-!!$  x(5)=1.04579905681238
-!!$  x(6)=2.38235875550730
+
+
 
   !===================================================================
   !(2) Integer Settings and store into IDAT (check for size above)
@@ -118,7 +112,7 @@ program problemPC
   kprob=0
 
   IDAT(1)=kprob
-  IDAT(2)=1
+  IDAT(2)=0
   IDAT(3:N+2)=probtype(1:N)
 
   !===============================================
@@ -156,7 +150,7 @@ program problemPC
 
   !Problem data and other constants
   dat(1000+1)=10.0 !height ref
-  dat(1000+2)=1.0e8 !E
+  dat(1000+2)=1.0e7 !E
   dat(1000+3)=0.1 !gamma
   dat(1000+4)=50.0*pi/180.0
   dat(1000+5)=30000.0
@@ -173,7 +167,7 @@ program problemPC
   !Displacement
   dat(1000+12)=0.005    ! in  max_u_disp=dat(12)
   dat(1000+13)=0.005    ! in  max_v_disp=dat(12)
-  dat(1000+14)=1.50      ! Factor of safety
+  dat(1000+14)=1.00      ! Factor of safety
   dat(1000+20)=77      ! filenum for PC
 
 
@@ -437,6 +431,7 @@ subroutine EV_G(N, X, NEW_X, M, G, IDAT, DAT, IERR)
         DAT(1020+i)=(cmean(i)/cstd(i))
      end do
      print*,''
+
   end if
 
   !---- INEQUALITY CONSTRAINTS gradient

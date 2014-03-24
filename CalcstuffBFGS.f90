@@ -29,7 +29,7 @@ subroutine CalcExact(X,ndvart,fobj,dfdD,fct,DATA)
   fctindx=fct
   mainprog=.false.
   DAT(1:20)=DATA(1:20)
-  
+
   call get_f(ndvart,12,x,fobj)
 
   call get_df(ndvart,12,x,dfDD)

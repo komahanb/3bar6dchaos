@@ -1,23 +1,15 @@
  iter    objective    betag1    betag2    betag3   betag4    betag5    betag6   
    betag7    betag8
-    0  0.7656854E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity      -Infinity
-    1  0.8876201E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    2  0.8573952E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    3  0.8917542E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    4  0.9789319E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    5  0.9889995E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    6  0.9994446E+01      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    7  0.9860545E+01      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    8  0.9817119E+01      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-    9  0.9421670E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity      -Infinity
-   10  0.9178700E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity      -Infinity
-   11  0.9567131E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   12  0.9569613E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   13  0.9575543E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   14  0.9577108E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   15  0.9578441E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   16  0.9579253E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   17  0.9580582E+01       Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity
-   18  0.9580460E+01      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity      -Infinity
-   19  0.9580430E+01      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity      -Infinity
-   20  0.9580174E+01      -Infinity      -Infinity      -Infinity      -Infinity      -Infinity       Infinity      -Infinity      -Infinity
+    0  0.7656854E+01  0.3020631E+05 -0.2593298E+05 -0.9535011E+05 -0.7940496E+05 -0.9206799E+05  0.2820440E+04  0.3238181E+04  0.4496371E+05
+    1  0.9472208E+01  0.2888075E+05 -0.2175627E+05 -0.9266312E+05 -0.1257229E+06 -0.8729519E+05 -0.1019457E+05 -0.2687806E+04  0.4468302E+05
+    2  0.9622437E+01  0.3856986E+05 -0.3543292E+05 -0.4883281E+05 -0.2980814E+06 -0.1853183E+06 -0.1552572E+05 -0.4000736E+04  0.1951530E+05
+    3  0.1287878E+02 -0.3648667E+04 -0.1513950E+05 -0.7110474E+05 -0.1355314E+06 -0.9189495E+05 -0.4120022E+05  0.1397166E+04  0.1722818E+05
+    4  0.1274660E+02 -0.8278260E+04 -0.2862131E+05 -0.4888726E+05 -0.2195637E+06 -0.1123812E+06 -0.2989461E+05 -0.2475292E+04  0.9378901E+04
+    5  0.1363322E+02 -0.1595398E+05 -0.2871736E+05 -0.4756046E+05 -0.2572960E+06 -0.1032567E+06 -0.2968408E+05 -0.2667988E+04  0.4630637E+04
+    6  0.1409855E+02 -0.1892214E+05 -0.1991753E+05 -0.4280725E+05 -0.3485920E+06 -0.8031295E+05 -0.3033620E+05  0.2545917E+03  0.9662298E+03
+    7  0.1415992E+02 -0.2038290E+05 -0.1987518E+05 -0.4308513E+05 -0.3495443E+06 -0.7932391E+05 -0.2975398E+05  0.1715333E+03  0.6294853E+03
+    8  0.1430352E+02 -0.2147745E+05 -0.1987341E+05 -0.4142958E+05 -0.2721321E+06 -0.7726974E+05 -0.2887558E+05 -0.1526100E+02  0.2383572E+03
+    9  0.1444220E+02 -0.2148824E+05 -0.2010086E+05 -0.4287487E+05 -0.2768078E+06 -0.7800929E+05 -0.2961069E+05 -0.1492482E+01  0.7842036E+01
+   10  0.1444537E+02 -0.2176227E+05 -0.2010790E+05 -0.4242392E+05 -0.2843763E+06 -0.7828294E+05 -0.3019756E+05 -0.2490088E+00  0.8826163E+00
+   11  0.1444581E+02 -0.2192924E+05 -0.2013049E+05 -0.4282691E+05 -0.2797614E+06 -0.7818063E+05 -0.2933517E+05 -0.6660659E-02  0.2361909E-01
+   12  0.1444582E+02 -0.2167786E+05 -0.2008757E+05 -0.4310103E+05 -0.2800267E+06 -0.7853690E+05 -0.3022484E+05 -0.7119679E-04 -0.6359655E-04
